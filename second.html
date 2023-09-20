@@ -2,10 +2,13 @@
 <html>
 	<head>
 		<title>Second Page</title>
-		td, th {
-		border-collapse: collapse;
-		border: 1px solid #000;
-		/*	Border width  Border Type  border color*/
+		<style>	
+			td, th {
+				border-collapse: collapse;
+				border: 1px solid #000;
+				/* Border width  Border Type  border color */
+				}
+		</style>
 		
 	<head>
 	
@@ -24,6 +27,10 @@
 				<th>Row 1</th>
 				<td>data1</td>
 				<td>data2</td>
+				<tr>
+					<td>colspan="2" rowspan="2">data1<</td>
+					<td>data2</td>
+				</tr>
 			</tbody>
 		</table>
 	</body>
