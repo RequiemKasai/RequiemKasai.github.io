@@ -1,7 +1,7 @@
 h1 { 
   color: purple;
   border: 1px solid red;
-  border-style: double dotted;
+  border-style: double dashed dotted solid;
 }
 
 table {
