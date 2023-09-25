@@ -1,3 +1,5 @@
 main {
   color: indigo;
+  border: 1px dashed red;
+  border-style: dotted;
 }
