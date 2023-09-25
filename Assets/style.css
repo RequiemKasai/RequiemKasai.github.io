@@ -3,3 +3,10 @@ main {
   border: 1px dashed red;
   border-style: dotted;
 }
+
+ul {
+}
+
+article {
+  color: #355E3B;
+}
