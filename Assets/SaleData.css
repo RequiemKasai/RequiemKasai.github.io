@@ -8,14 +8,11 @@ tr {
   background-color: #FAD5A5;
 }
 
-table td {
-    width: 10px;
-    overflow: hidden;
-    display: inline-block;
-    white-space: nowrap;
-}
-
 td { 
+  width: 10px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
   background: green; 
   text-align: center; 
   vertical-align: middle;
