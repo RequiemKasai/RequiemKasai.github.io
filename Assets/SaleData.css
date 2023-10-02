@@ -1,18 +1,18 @@
 table{
+  width: 10px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
   border: 5px dashed red;
   border-style: solid;
 }
 
 tr {
   color: rgb(115, 147, 179);
-  background-color: #FAD5A5;
+  background-color: #FAD8A5;
 }
 
 td { 
-  width: 10px;
-  overflow: hidden;
-  display: inline-block;
-  white-space: nowrap;
   background: green; 
   text-align: center; 
   vertical-align: middle;
