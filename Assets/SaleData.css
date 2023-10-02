@@ -20,6 +20,7 @@ td:nth-child(odd) {
 }
 
 th {
+  width: 100px
   text-align: left; 
   color: rgb(115, 147, 179);
   background-color: #FAD5A5;
