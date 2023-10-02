@@ -9,6 +9,8 @@ tr {
   background-color: #FAD5A5;
 }
 
+
+
 td { 
   background: green; 
   text-align: center; 
@@ -26,7 +28,7 @@ th {
 }
 
 caption {
-  caption-side: block-end;
+  caption-side: bottom;
   color: #00A36C;
   background-color: #FAD5A5;
 }
