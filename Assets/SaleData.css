@@ -9,7 +9,12 @@ tr {
   background-color: #FAD5A5;
 }
 
-
+table td {
+    width: 30px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
 
 td { 
   background: green; 
@@ -25,6 +30,7 @@ th {
   text-align: left; 
   color: rgb(115, 147, 179);
   background-color: #FAD5A5;
+  
 }
 
 caption {
