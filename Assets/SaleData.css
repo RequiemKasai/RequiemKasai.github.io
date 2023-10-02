@@ -9,7 +9,7 @@ table{
 
 tr {
   color: rgb(115, 147, 179);
-  background-color: #FAD8A5;
+  background-color: #C8AA84;
 }
 
 td { 
@@ -32,5 +32,5 @@ th {
 caption {
   caption-side: bottom;
   color: #00A36C;
-  background-color: #FAD5A5;
+  background-color: #5e99cf;
 }
