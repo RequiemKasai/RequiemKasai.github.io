@@ -1,7 +1,6 @@
-main {
-  color: indigo;
-  border: 1px dashed red;
-  border-style: dotted;
+table{
+  border: 5px dashed red;
+  border-style: solid;
 }
 
 tr {
