@@ -9,7 +9,7 @@ tr {
 }
 
 table td {
-    width: 30px;
+    width: 10px;
     overflow: hidden;
     display: inline-block;
     white-space: nowrap;
