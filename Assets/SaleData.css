@@ -1,1 +1,30 @@
+main {
+  color: indigo;
+  border: 1px dashed red;
+  border-style: dotted;
+}
 
+tr {
+  color: rgb(115, 147, 179);
+  background-color: #FAD5A5;
+}
+
+td { 
+  background: green; 
+}
+
+td:nth-child(odd) {
+  background: red;
+}
+
+th {
+  font-weight: 100;
+  color: rgb(115, 147, 179);
+  background-color: #FAD5A5;
+}
+
+caption {
+  caption-side: block-end;
+  color: #00A36C;
+  background-color: #FAD5A5;
+}
