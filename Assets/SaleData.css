@@ -11,6 +11,8 @@ tr {
 
 td { 
   background: green; 
+  text-align: center; 
+  vertical-align: middle;
 }
 
 td:nth-child(odd) {
@@ -18,7 +20,7 @@ td:nth-child(odd) {
 }
 
 th {
-  font-weight: 100;
+  text-align: left; 
   color: rgb(115, 147, 179);
   background-color: #FAD5A5;
 }
