@@ -1,7 +1,5 @@
 table{
-  overflow: hidden;
-  display: inline-block;
-  white-space: nowrap;
+  width: 280px
   border: 5px dashed red;
   border-style: solid;
 }
