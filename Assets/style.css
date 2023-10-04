@@ -13,7 +13,7 @@ article {
   color: #00A36C;
 }
 
-nav.nth-of-type(3) {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
