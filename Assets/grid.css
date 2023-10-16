@@ -1,27 +1,30 @@
-body {
-display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    grid-auto-rows: minmax(100px, auto);
-    gap: 1rem;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-
-
-header {
-  background-color: lime;
-  grid-area: head;
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
-
-nav {
-  background-color: lightblue;
-  grid-area: nav;
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
-
-main {
-  background-color: yellow;
-  grid-area: main;
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
 }
-
-footer {
-  background-color: red;
-  grid-area: foot;
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
 }
