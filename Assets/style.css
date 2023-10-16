@@ -17,10 +17,10 @@ nav {
   flex: 1 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   background: crimson;
   flex-flow: column;
-  padding: 10000px;
+  padding: 10px;
   margin: 5px;
   font-size: 25px;
   line-height: 2;
