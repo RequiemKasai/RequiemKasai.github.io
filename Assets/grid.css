@@ -1,13 +1,10 @@
-#page {
-  display: grid;
-  width: 100%;
-  height: 200px;
-  grid-template:
-    [header-left] "head head" 1fr [header-right]
-    [main-left] "nav  main" 2fr [main-right]
-    [footer-left] "nav  foot" 1fr [footer-right]
-    / 120px 1fr;
+body {
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1rem;
 }
+
 
 header {
   background-color: lime;
