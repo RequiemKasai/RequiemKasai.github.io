@@ -17,7 +17,7 @@ nav {
   flex: 1 100px;
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   background: crimson;
   flex-flow: column;
   margin: 5px;
