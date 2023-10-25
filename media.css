@@ -3,7 +3,7 @@ body {
     margin-left: 10em;
 }
 
-@media creen and (width <= 980) {​
+@media creen and (width <= 980px) {​
     aside {
         width: 20%;
         height: 100%;
@@ -26,7 +26,7 @@ aside>* {
     padding: 0 2em;
 }
 
-@media screen and (width <= 980) {
+@media screen and (width <= 980px) {
     .ad {
         display: flex;
         justify-content: center;
@@ -41,7 +41,7 @@ aside>* {
     }
 }
 
-@media screen and (width > 980) {
+@media screen and (width > 980px) {
     ​main .ad {
         display: none;
     }
