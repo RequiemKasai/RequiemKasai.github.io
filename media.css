@@ -3,7 +3,7 @@ body {
     margin-left: 10em;
 }
 
-@media creen and (width <= 980px) {​
+@media screen and (width <= 980px) {​
     aside {
         width: 20%;
         height: 100%;
