@@ -3,6 +3,7 @@ body {
     margin-left: 10em;
 }
 
+@media creen and (width <= 980)​
 aside {
     width: 20%;
     height: 100%;
