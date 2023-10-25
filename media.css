@@ -44,7 +44,7 @@ main .ad {
 }
 
 @media (width <= 980px) {
-    ​ aside {
+    aside {
         display: none;
     }
-}
+
