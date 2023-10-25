@@ -25,7 +25,6 @@ aside>* {
     padding: 0 2em;
 }
 
-@media screen and (width <= 980px) {
     .ad {
         display: flex;
         justify-content: center;
@@ -38,7 +37,6 @@ aside>* {
         margin: 1em auto;
         padding: 0;
     }
-}
    
 
 main .ad {
