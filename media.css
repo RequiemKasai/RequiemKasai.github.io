@@ -39,6 +39,7 @@ aside>* {
     padding: 0;
 }
 
+@media screen and (width > 980)​
 main .ad {
     display: none;
 }
