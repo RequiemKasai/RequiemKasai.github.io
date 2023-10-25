@@ -3,16 +3,14 @@ body {
     margin-left: 10em;
 }
 
-@media screen and (width <= 980px) {
-    ​ aside {
-        width: 20%
-        height: 100%;
-        position: fixed
-        top: 0;
-        right: 0;
-        width: 20%;
-        background: lightblue;
-    }
+aside {
+    width: 20%
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    background: lightblue;
 }
 
 ul {
@@ -43,9 +41,12 @@ aside>* {
 }
    
 
-@media screen and (width > 980px) {
-    ​main .ad {
-        display: none;
-    }
+main .ad {
+    display: none;
 }
 
+@media screen and (width <= 980px) {
+    ​ aside {
+        display: none;
+        )
+    }
