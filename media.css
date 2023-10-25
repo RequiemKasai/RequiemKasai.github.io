@@ -24,6 +24,7 @@ aside>* {
     padding: 0 2em;
 }
 
+@media screen and (width <= 980)​
 .ad {
     display: flex;
     justify-content: center;
